@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./css/pokedex.css">
+    
+</head>
+<body background="" background-color= 'rgb(212, 212, 212)' id="fondop">
+    <header>
+        <div class="ancho">
+            <div class="anchotitulo">
+                <h1>POKEDEX</h1>
+            </div>
+            <div class="anchologo">
+                <img class="logo" src="./img/logo.PNG">
+            </div>
+        </div>
+    </header>
+    <div class="margent">
+        <div class="margeni">
+            <div class="pokeimg">
+                <p id="pokenum"></p>
+                <img src="./img/inicio.png" alt="Pokemon" id="pokeImg" width="150px">
+            </div>
+            <div class="pokenombre">
+                <h4>NOMBRE POKEMON</h4>
+                <input type="text" placeholder="Buscar" id="pokeName" name="pokeName">
+            </div>
+            <div class="pokeboton">
+                <button onclick="fetchPokemon()">Buscar</button>
+            </div>
+        </div>
+        <div class="margend">
+            <div class="pokestats">
+                <H4>Tipo Pokemon</H4>
+                <p id="tipokemon">Sin busqueda</p>
+                <h4>Peso</h4>
+                <p id="pesokemon">Sin busqueda</p>
+                <h4>Altura</h4>
+                <p id="alturakemon">Sin busqueda</p>
+                <h4>Movimientos</h4>
+                <p id="movpokemon">Sin busqueda</p>
+                <p id="movpokemon2"></p>
+            </div>
+            <div class="pokehabilidades">
+                <h4>Habilidades</h4>
+                <p id="pokehp"></p>
+                <p id="pokesttack"></p>
+                <p id="pokedefense"></p>
+                <p id="pokespecial-a"></p>
+                <p id="pokespecial-d"></p>
+                <p id="pokespeed"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <script src="./js/pokedex.js"></script>
+</footer>
+</html>
